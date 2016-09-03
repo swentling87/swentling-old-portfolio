@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephen Wentling</title>
+    <atom:link href="http://swentling.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://swentling.com/</link>
+    <description>A website with blog posts and pages</description>
+    <pubDate>Sat, 03 Sep 2016 16:03:12 -0700</pubDate>
+    
+      <item>
+        <title>Alexa Skills</title>
+        <link>http://swentling.com/2016/08/13/alexa.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/08/13/alexa.html</guid>
+        <description>&lt;p&gt;Ok now for something new… I wrote some &lt;a href=&quot;http://alexa.amazon.com/spa/index.html#skills/search/swentling/?&amp;amp;ref-suffix=sb_gw&quot;&gt;skills&lt;/a&gt; for the Amazon Echo! They’re a little basic from the standpoint that they’re not any groundbreaking creation and yet they’re my first published applications for a major platform, so it’s pretty exciting!! And on top of that, within the first day I have a five-star review on one which I’m just absolutely amazed by.&lt;/p&gt;
+
+&lt;p&gt;The first application was pretty straight forwards, I created &lt;a href=&quot;http://alexa.amazon.com/spa/index.html#skills/dp/B01K3U5B8W/?ref=skill_dsk_skb_sr_1&quot;&gt;World Currencies&lt;/a&gt; which is a trivia game to teach you about world currencies.&lt;/p&gt;
+
+&lt;p&gt;The second application while similar was slightly different as it has a database of facts and can recite them as often as requested. Called &lt;a href=&quot;http://alexa.amazon.com/spa/index.html#skills/dp/B01K742NQC/?ref=skill_dsk_skb_sr_0&quot;&gt;Weird Laws&lt;/a&gt; it is a collection of weird laws that exist in the United States.&lt;/p&gt;
+
+&lt;p&gt;And now for my third completed application which is currently &lt;del&gt;awaiting certification&lt;/del&gt; certified(08/16/2016)! It is called &lt;a href=&quot;http://alexa.amazon.com/spa/index.html#skills/dp/B01KAIYYG2/?ref=skill_dsk_skb_sr_0&quot;&gt;Chance Dice&lt;/a&gt; and is a random number generator which simulates rolling dice with options for 4, 6, 8, 10, 12, 20, 100 sided dice. &lt;del&gt;Having just submitted it today, it should go live in the next couple of days depending on when the certification gets completed.&lt;/del&gt; And now that it’s live on the Alexa skills site, it is up and ready to use for any and all dice rolling endeavors you may have.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Aug 2016 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>BlocJams v1, v2, v2.5</title>
+        <link>http://swentling.com/2016/08/07/jams.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/08/07/jams.html</guid>
+        <description>&lt;p&gt;So far everything has been Ruby, Ruby on Rails, HTML, CSS and a little jQuery thrown into the mix for fun. And boy have I been &lt;strong&gt;spoiled…&lt;/strong&gt; because as part of the FrontEnd portion of my Software Engineering Track with &lt;a href=&quot;http://www.bloc.io&quot;&gt;Bloc&lt;/a&gt; they have me learning JavaScript and Angular. Now it’s not really that bad, at least this time around I’ve got some coding experience under my belt and I’m just learning a new language and framework rather than a whole new way of thinking. But with that said, I definitely have gained an appreciation for the wonders of Ruby.&lt;/p&gt;
+
+&lt;p&gt;Now on my portfolio you can find links to the GitHub repos for both the vanilla JS version of BlocJams (my main project) and the program re-written into Angular. I will admit that it actually works pretty well and I can see how it has its uses and its place in the world of development. Now for the difficult part… Adding metrics to the project using D3 and NVD3 to visualize the data with automatic graph generation. The actual process of building that out was quite easy the trick part was figuring out the dependencies as the documentation is a bit lacking. So if anyone ever sees this, if you’re trying to use D3 and NVD3 make sure that you have all three of these:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.8/angular-nvd3.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Otherwise, it simply won’t work. And I couldn’t any mention of this &lt;strong&gt;anywhere&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Aug 2016 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Geo-Locate what?</title>
+        <link>http://swentling.com/2016/07/11/geo.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/07/11/geo.html</guid>
+        <description>&lt;p&gt;Ok so there’s a new project on my portfolio here called the Geo-Location challenge. This was a unique project as I got my first chance to work with Google API’s and it’s funny because I tried initially to work with strictly integrating JS directly into my Rails App. And while it is a bit odd when writing in HAML it is still &lt;a href=&quot;http://stackoverflow.com/questions/9744169/include-inline-js-in-haml&quot;&gt;possible&lt;/a&gt;. But &lt;em&gt;no one&lt;/em&gt; seemed to be doing that. Every reference I found simly said to use the gem &lt;a href=&quot;https://github.com/apneadiving/Google-Maps-for-Rails&quot;&gt;gmaps4rails&lt;/a&gt; and I’ve got to say that I’m definitely a fan. If I ever need to use Gmaps again on a rails app, it makes your life quite easy. If it ain’t broke, why fix it? Right?!&lt;/p&gt;
+
+&lt;p&gt;Now there was one challenge however and I didn’t find that any references on how to approach this so I thought someone somewhere may find this useful one day. Part of the challenge in this project was to sort each point by distance from a central location and add them to the map. Now the distance portion was interesting because each point couldn’t be calculated by finding the distance in a straight line like on a graph written on paper because the points lie on the earth which is round. So… I created a method to calculate a distance score based on the latitude and longitude which would take into account things like the curvature of the earth and then ordered the points by this score which worked great! Adding the points then was easy, just follow the documentation for the gem. Now for the default location/value, that’s where it got tricky.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def welcome
+  @locations = Location.all
+  @five_locations = Location.all.limit(5)
+  @loc_hash = Gmaps4rails.build_markers(@five_locations) do |location, marker|
+    marker.lat location.latitude
+    marker.lng location.longitude
+  end
+
+  @loc_hash.push({lat: 33.1243208,lng: -117.32582479999996})
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So what’s going on here? “@five_locations” is the top five closest locations as it’s already been sorted by a scope. “@loc_hash” then becomes the data set that gmaps4rails uses to create markers on the map but that’s all it would take… I couldn’t get it to take both the hash and a secondary value. So the solution clearly became to simply push the default value to the hash and that way it would create markers for not only the 5 selected locations but also for the default location.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jul 2016 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Ok you&#39;ve coded some Ruby... What are you doing now?</title>
+        <link>http://swentling.com/2016/06/29/doing.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/06/29/doing.html</guid>
+        <description>&lt;p&gt;Well. Let me tell you, I have been up to my elbows in JavaScript learning some vanilla JS and expanding my knowledge in jQuery all while holding down a job as a superb claims specialist and networking in the local coding community. Now on to the topic of JavaScript… I must concede that it may not be my favorite language that I have had exposure to so far, but it does seem to have its benefits and do some pretty interesting stuff. Yet still, some Ruby on Rails with a little jQuery can do an awful lot as far as I’m concerned and I know that I have only scratched the surface so far. It’s a decently deep scratch, but not enough in my eyes. I want &lt;strong&gt;more!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So, the fact that I’ve just scratched the surface is a bit of a problem for me, because I want to be the best and have this strong drive to always get better and quickly… But currently, finding time on the weekends, evenings and in between life is all I get. And while it’s definitely enough time to get through checkpoints in Bloc and has been enough to build little projects, that’s about it when I’m putting in 40+ hrs doing otherwise each week. But that’s just the thing, right now I have been coding approximately one year and I have learned a heck of a lot, there’s a ton in front of me to learn and I can’t wait to keep going with this but I have to remind myself sometimes to temper this ambition and remember reality and the fact that this is not my day job, I’m not a college student with all day to work on this but that I have responsibility in life. So the moral of the story, I’m proud of what I have accomplished, proud of what I’m doing now and just need to remember not to beat myself up because of my own expectations. I’m writing this out so I can come back and read this from time to time and &lt;strong&gt;remember&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2016 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Why now? What makes you think you&#39;re ready?</title>
+        <link>http://swentling.com/2016/05/20/why-now.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/05/20/why-now.html</guid>
+        <description>&lt;p&gt;So… I recently had a mock-interview with my mentor that was probably equal parts successful and awkward. In large part it was because this was a very different interview from what I have ever experienced in the past. I can sell you a stapler based on the merits of its color, type and function any day. I can explain in detail a time that I overcame an obstacle or difficult situation at work, how I approached the problem and what the outcome was any day. But to explain what an object is?? Well I know what it is, but put on the spot it was hard to describe. It was like someone asking me to describe the word &lt;strong&gt;the&lt;/strong&gt;. I know what is is and how to use it but just sort of took it for granted. In retrospect I can look back now and say, “Duh! An object is an instance of a class.” and “A class is a description or template of what an object could be.” At the time however while the coffee that morning hadn’t made it to my brain yet I was found stumbling around for an answer…. And boy am I glad about that! Because at least now I know slightly what to expect.&lt;/p&gt;
+
+&lt;p&gt;The real curveball question that I got though is still rattling around in my head… What makes you think you’re ready to do this? What makes you think you can be a Ruby on Rails developer….&lt;/p&gt;
+
+&lt;p&gt;Well obviously it’s because I have a lot of bluish-teal checkmarks on my roadmap at Bloc. Oh wait… Scratch that. What makes me ready? It got me to really thinking. I don’t know everything, I’m not a Ruby Ninja that eats gems for breakfast or a Code Warrior that will wow you with my superior coding skills. Not yet anyways. I know enough to be dangerous though. Bloc has taught me to code and code well. I have created 4 applications at this point of varying levels of complexity and all on my own essentially. Yes I have had guidance but don’t we all? Each project has presented it’s own level of difficulties, challenges and times where I have wanted to bang my head on the desk but I’ve overcome them, searched out resources and developed my own solution. Keyword &lt;strong&gt;developed&lt;/strong&gt;. I have &lt;strong&gt;developed software&lt;/strong&gt; and with my background, my prior accomplishments and my thirst for knowledge I know that I’m ready because I have already been doing this. Now it’s time to make my passion into a career.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 May 2016 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Me</title>
+        <link>http://swentling.com/2016/05/10/me.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/05/10/me.html</guid>
+        <description>&lt;p&gt;So… I’m a Software Developer now. Kind of hard to wrap my head around that, but the fact is that I have developed software and continue to do so, not as a hobby but as a passion. That makes me a developer. I’ve held the label of student, athlete, server, bartender, banker, manager, claims adjuster, boyfriend and fiancee but this is all new. The aspect that stands out the most to me though is not that it’s a new label but that as a developer this is the first time that I have ever &lt;strong&gt;created&lt;/strong&gt; anything new. In my previous roles I have either sold something that someone else created, or followed recipes, work-flows or guides. And yes there is still a formulaic aspect to parts of this yet more than ever before I get to create and be creative. At the end of the day there is something to show for the work that I’ve done, I can actually see a result and that is a great feeling.&lt;/p&gt;
+
+&lt;p&gt;Now the big question is, what’s next? I’ve been employed with my current employer for over three years and it’s been a good three years but things have changed. The company has changed directions, changed CEO’s, changed policies but more importantly &lt;strong&gt;I&lt;/strong&gt; have changed. I like to think that learning to code has given me a new lens at which to look at the world, it slightly changes my view of things that I see, hear and experience. Problems that present themselves seem like opportunities rather than obstacles. It’s not just about the coding but rather it has changed the way I look at problems, reminded me that I’m more than a cog in a big corporate machine and that I can make a difference. It all may sound slightly corny but the fact is that it’s true, working with Bloc has given me renewed purpose, drive and enthusiasm.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 May 2016 00:00:00 -0700</pubDate>
+      </item>
+    
+  </channel>
+</rss>

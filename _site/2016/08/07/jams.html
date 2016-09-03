@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>BlocJams v1, v2, v2.5 | Stephen Wentling</title>
+	<meta name="description" content="So far everything has been Ruby, Ruby on Rails, HTML, CSS and a little jQuery thrown into the mix for fun. And boy have I been spoiled… because as part of th...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://swentling.com/2016/08/07/jams.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Stephen Wentling" href="http://swentling.com/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-77575333-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="https://secure.gravatar.com/avatar/95add28d8792fa4af0f190344db456ac?s=100" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Stephen Wentling</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/contact/">
+					Contact
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+
+
+<li>
+	<a href="mailto:stephen@swentling.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.facebook.com/stephen.wentling" title="Follow on Facebook">
+		<i class="fa fa-fw fa-facebook"></i>
+	</a>
+</li>
+
+
+
+
+
+<li>
+	<a href="https://github.com/swentling87" title="Follow on GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/joeykirk" title="Follow on Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/stephen-wentling-b3900329" title="Follow on LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://stackoverflow.com/users/5992270/stephen-w" title="Follow on Stack Exchange">
+		<i class="fa fa-fw fa-stack-exchange"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+  <header style="background-image: url('/img/sheet_music.jpg')">
+    <h1 class="title">BlocJams v1, v2, v2.5</h1>
+    <p class="meta">
+    August 7, 2016
+    
+    </p>
+  </header>
+  <section class="post-content"><p>So far everything has been Ruby, Ruby on Rails, HTML, CSS and a little jQuery thrown into the mix for fun. And boy have I been <strong>spoiled…</strong> because as part of the FrontEnd portion of my Software Engineering Track with <a href="http://www.bloc.io">Bloc</a> they have me learning JavaScript and Angular. Now it’s not really that bad, at least this time around I’ve got some coding experience under my belt and I’m just learning a new language and framework rather than a whole new way of thinking. But with that said, I definitely have gained an appreciation for the wonders of Ruby.</p>
+
+<p>Now on my portfolio you can find links to the GitHub repos for both the vanilla JS version of BlocJams (my main project) and the program re-written into Angular. I will admit that it actually works pretty well and I can see how it has its uses and its place in the world of development. Now for the difficult part… Adding metrics to the project using D3 and NVD3 to visualize the data with automatic graph generation. The actual process of building that out was quite easy the trick part was figuring out the dependencies as the documentation is a bit lacking. So if anyone ever sees this, if you’re trying to use D3 and NVD3 make sure that you have all three of these:
+<code class="highlighter-rouge">
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.8/angular-nvd3.min.js"&gt;&lt;/script&gt;
+</code></p>
+
+<p>Otherwise, it simply won’t work. And I couldn’t any mention of this <strong>anywhere</strong>.</p>
+</section>
+</article>
+
+<!-- Disqus -->
+
+
+    </div>
+    <script src="/js/main.js"></script>
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>
