@@ -5,7 +5,33 @@
     <atom:link href="http://swentling.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://swentling.com/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Sat, 03 Sep 2016 16:03:12 -0700</pubDate>
+    <pubDate>Sat, 04 Feb 2017 19:59:54 -0800</pubDate>
+    
+      <item>
+        <title>Time Flies!!</title>
+        <link>http://swentling.com/2017/02/04/time-flies.html</link>
+        <guid isPermaLink="true">http://swentling.com/2017/02/04/time-flies.html</guid>
+        <description>&lt;p&gt;Well I took awhile to get to this…. but for good reason! I’ve been pulling double-duty still working insurance claims and lots of dev projects for Phantom Design. Just completed work on the sales funnel for a client’s new product launch, a new product feature and squashing bugs left and right! Then for Bloc.io I just completed a custom re-build of ActiveRecord and Rails.&lt;/p&gt;
+
+&lt;p&gt;Lots going on! I’d love to write more, but gotta get back to work. Hopefully after some product launch I’ll be able to display some of my handiwork soon… So keep checking back!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Feb 2017 00:00:00 -0800</pubDate>
+      </item>
+    
+      <item>
+        <title>What&#39;s going on?</title>
+        <link>http://swentling.com/2016/10/25/going-on.html</link>
+        <guid isPermaLink="true">http://swentling.com/2016/10/25/going-on.html</guid>
+        <description>&lt;p&gt;So it seems like I have been radio silent for some time now. And boy have I been busy! Between handling Injury Claims in my full-time job and then working on projects for my employer Phantom Design and studying Software Engineering Principles through Bloc I have definitely had a lot on my plate. But in a good way!&lt;/p&gt;
+
+&lt;p&gt;The majority of this time as I mentioned, has been doing some work above and beyond my standard 40hrs in insurance. I recently completed an assignment building a new responsive landing page and download page for a client in preparation for their launch in a new market. Started with a clean slate and got a chance to really build something to be proud of. Something production worthy. I constructed a new responsive header and footer system, built out the page with responsive elements both using Bootstrap but also my own code in some places. Then in the backend I got to clean up and partially re-write a fair amount to allow for some needed flexibility and got a chance to work further with the Stripe API hacking together a new and improved payments form. Overall, that assignment and some various debugging for our client on other aspects of the codebase has kept me busy! But as I mentioned, in a good way! Great in fact.&lt;/p&gt;
+
+&lt;p&gt;And then with Bloc I’m moving into Software Engineering Principles and learning about Data Structures at the moment. Not just how to use an array or a hash but actually how to define and build things like a linked list in Ruby, stacks, queues and how the examine the underlying mechanics of a hash. So definitely different and very interesting stuff! Next will be Algorithm design, some further DB work and then a deeper dive into Framework Architecture and Design Patterns. Excited!&lt;/p&gt;
+
+&lt;p&gt;So… That’s what I’ve been up to. I’ll be taking some time to write on a few topics shortly from a technical perspective as well. Stay tuned!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2016 00:00:00 -0700</pubDate>
+      </item>
     
       <item>
         <title>Alexa Skills</title>

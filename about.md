@@ -5,4 +5,4 @@ permalink: /about/
 feature-img: "img/computer.jpg"
 ---
 
-I am a passionate and motivated software developer versed in Ruby, Ruby on Rails, HTML, CSS and jQuery with a background in the Insurance, Banking and Hospitality industries.
+I am a passionate and motivated Jr. Software Engineer at Phantom Design versed in Ruby, Ruby on Rails, HTML, CSS and jQuery with a background in the Insurance, Banking and Hospitality industries.
